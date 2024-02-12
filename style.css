@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+}
+
+.wrap {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+  padding: 20px 0 40px;
+  border: 2px solid #b2b2b2;
+  border-radius: 16px;
+}
+h1 {
+  color: #0026ff;
+}
+.btn-wrap {
+  display: flex;
+  gap: 8px;
+  width: 80%;
+  height: 50px;
+}
+input {
+  height: 36px;
+  width: 70%;
+  padding: 0 8px;
+}
+button {
+  flex: 1;
+  background-color: #7dc0ff;
+  border: 0;
+  border-radius: 8px;
+}
